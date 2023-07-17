@@ -1,12 +1,7 @@
-
-// colocar pontuação, css
-
 const div = document.querySelector('div.perguntas')
 
-
-// colocar filmes
+// colocar filmes?
 // Os Oito Odiados 2015 ‧ Faroeste/Drama ‧ 3h 7m
-
 
 const quiz = [
     {
@@ -50,7 +45,6 @@ document.querySelector('#iniciar').addEventListener('click', event => {
         if (document.querySelector('button').getAttribute('id') === 'next' && quiz.length >= count) {
             if (document.querySelectorAll('input')[i].checked === true && document.querySelectorAll('p')[i].textContent === quiz[count - 1].correta) {
                 pontos++
-                console.log(pontos)
             }
         }
     }
@@ -60,7 +54,7 @@ document.querySelector('#iniciar').addEventListener('click', event => {
     const embaralha = array => {
         array.sort(() => Math.random() - 0.5)
     }
-    for(let i=0;i<quiz.length;i++){
+    for (let i = 0; i < quiz.length; i++) {
         embaralha(quiz[i].resposta)
     }
 
