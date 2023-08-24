@@ -1,4 +1,4 @@
 # [Quiz Javascript](https://devjonatanm.github.io/QuizJS/)
 
-# [Clique aqui para ver o projeto em funcionamento](https://shiny-pudding-debe92.netlify.app/)
+# [Clique aqui para ver o projeto em funcionamento](https://devjonatanm.github.io/QuizJS/)
 ![](image.jpg)
